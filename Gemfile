@@ -4,6 +4,7 @@ gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+#gem 'pg'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
@@ -29,7 +30,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '0.12.2'
+  gem 'pg'
 end
 
 # To use ActiveModel has_secure_password
